@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+body{
+    background: #000000;
+    display: flex;
+    justify-content:center;
+}
+.alllogo{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    top: 15%;
+}
+.cards{
+    display: flex;
+    width: 960px;
+    flex-wrap: wrap;
+    place-content: center;
+    margin-top: 294px;
+    height: max-content;
+}
+.card{
+    width: 300px;
+    height: 150px;
+    background: #495159;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+}
+.backgrounds2{
+  background-image: url(background.jpg);
+  width: 100%;height: 290px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+}
+.underline{
+    position: absolute;
+    height: 2px;
+    background: #E6E6E6;
+}
+.logo{
+    width: 240px;
+    height: 90px;
+    position: absolute;
+    text-align: center;
+    color: #E6E6E6;
+    margin: 100x;
+
+}
+.under1{
+    width: 220px;
+    top: 110px;
+}
+.description{
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #E6E6E6;
+    margin-top: 150px;
+    margin-right: -10;
+}
+.under2{
+    width: 96px;
+    top: 200px;
+}
+.exe{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    background: #FF3F34;
+    border-radius: 0px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: -150;
+    margin-top: 105;
+}
+.buttonstxt{
+    color: white;
+    height: 47px;
+    font-family: Cairo;
+    font-size: 20px;
+    line-height: 47px;
+    text-decoration: none;
+}
+.text{
+    color: red;
+    height: 47px;
+    font-family: Cairo;
+    font-size: 35px;
+    line-height: 47px;
+    text-decoration: none;
+}
+.src{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    /* left: 50%; */
+    /* top: 105; */
+    background: #7f8c8d;
+    border-radius: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* top: 1; */
+    overflow: hidden;
+    margin-top: 99;
+    margin-left: 10;
+}
+.what{
+    margin-left: -223;
+    margin-top:108;
+    weight:2px;
+    height:25px;
+    background:none;
+    color:white;
+    font-size: 10px;
+}
+.title{
+    position: absolute;
+    height: 47px;
+    font-family: Cairo;
+    font-size: 15px;
+    line-height: 47px;
+    text-align: center;
+    color: #ffffff;
+    /* top: 10px; */
+    margin-top: 30px;
+}
+.instagram{
+    position: absolute;
+    left: 10;
+    top: 10;
+}
+.telegram{
+    position: absolute;
+    left: 35;
+    top: 10;
+}
+.copyr{
+    color: gray;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: Cairo;
+    position: absolute;
+}
+.btn1{
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    color: #9d65c9;
+    border: 2px solid #9d65c9;
+    display: inline-block;
+    cursor: pointer;
+    padding: auto;
+    transition: all .5s;
+}
+.btn1:hover,btn1.active{
+    background: #9d65c9;
+    border-color: transparent;
+    color: white;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+    transition:  all .5s;}
+
+.btn2{
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+    color: #9d65c9;
+    border: 2px solid #9d65c9;
+    display: inline-block;
+    cursor: pointer;
+    margin:  5px;
+    padding: auto;
+    transition: all .5s;
+
+}
+.btn2:hover,btn2.active{
+    background: #9d65c9;
+    border-color: transparent;
+    color: white;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+    transition:  all .5s;}
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  float:right;
+}
+
+.topnav a {
+  overflow: hidden;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  float:right;
+  font-size: 15px;
+  font-family: 'Almarai', sans-serif;
+}
+
+.topnav a:hover {
+  overflow: hidden;
+  background-color: #ddd;
+  color: black;
+
+
+}
+
+.topnav a.active {
+  overflow: hidden;
+  background-color: #38f0f0;
+  color: black;
+  font-family: 'Almarai', sans-serif;
+}
